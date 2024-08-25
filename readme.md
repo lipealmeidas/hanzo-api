@@ -42,7 +42,7 @@ This project was developed to perform API test automation using **Robot Framewor
 2. **🚀 Run the Tests**: To run the tests, navigate to the `tests` directory and run the command:
 
    ```bash
-   robot get.robot
+   robot -d /results ./tests/get.robot
    ```
 
 3. **📊 Check the Results**: After the tests are executed, reports will be generated in the `results` folder, where you can view detailed results for each test.
