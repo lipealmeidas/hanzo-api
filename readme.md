@@ -25,6 +25,7 @@ https://github.com/user-attachments/assets/90081fce-3387-4a70-b9f4-55a4f765e358
 │
 ├── 📂 resources/
 │   └── 📄 get_keywords.resource     # File containing the test keywords.
+│   └── 📄 requests_actions.resource # File containing request actions.
 │
 ├── 📂 results/
 │   └── 📝 (test results)            # Folder where test reports are stored.
@@ -53,18 +54,17 @@ https://github.com/user-attachments/assets/90081fce-3387-4a70-b9f4-55a4f765e358
 
 ## 🔍 Implemented Test Scenarios
 
-### 1. ✅ Validate Status Code
-- **Description**: Validates that the response status code is 200.
+### ✅ Validate Response Status and User Data
+- **Description**: Checking the response's status code and verifying the accuracy of the returned user data.
 - **Tested Endpoint**: `/users`
 
-### 2. 👥 Validate Number of Users
-- **Description**: Verifies that the response contains 10 users.
-- **Tested Endpoint**: `/users`
-
-### 3. 🛠️ Validate JSON Structure
-- **Description**: Validates the JSON response structure for the first user.
-- **Tested Endpoint**: `/users`
+```robot
+Scenario: Validate Response Status and User Data
+    Given I Send A GET Users Request
+    Then Validate User Data
+```
 
 ## 💡 Final Considerations
 
 This project was developed with the intention of ensuring the quality and proper functioning of the tested API, serving as a practical example of RESTful API test automation. Feel free to adjust and expand the tests as needed.
+

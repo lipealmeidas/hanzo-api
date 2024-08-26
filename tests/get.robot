@@ -7,6 +7,6 @@ Suite Setup         I Create API Session
 
 
 *** Test Cases ***
-Scenario: Validate Status Code
+Scenario: Validate Response Status and User Data
     Given I Send A GET Users Request
     Then Validate User Data

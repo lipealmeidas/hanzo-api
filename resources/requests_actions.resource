@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation       Keywords Referente as Requests em Geral
+Documentation       Keywords Regarding Requests in General
 
 Resource            ../config/package.resource
 
