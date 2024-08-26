@@ -4,6 +4,10 @@
 
 This project was developed to perform API test automation using **Robot Framework**. The goal is to validate the behavior of a RESTful API by performing tests such as response status code validation, user count, and verifying the JSON response structure.
 
+
+https://github.com/user-attachments/assets/90081fce-3387-4a70-b9f4-55a4f765e358
+
+
 ## 🧰 Technologies Used
 
 - **🖥️ Robot Framework**: Test automation framework.
