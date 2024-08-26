@@ -8,8 +8,9 @@ Library             SeleniumLibrary
 Library             yaml
 Library             RequestsLibrary
 Resource            ../resources/get_keywords.resource
+Resource            ../resources/requests_actions.resource
 
 
 *** Variables ***
-${BASE_URL}         https://jsonplaceholder.typicode.com
+${URL}         https://jsonplaceholder.typicode.com
 ${USERS_ENDPOINT}   /users
